@@ -21,7 +21,7 @@ body {
       background: linear-gradient(90deg, #D53369 0%, #DAAE51 100%); 
 
   }
-  .wrap {
+  .wrapcontainer {
     max-width: 1920px;
     margin: 0 auto;
     margin-left: 192px;
@@ -29,12 +29,24 @@ body {
 
   }
   @media (max-width: 797px) {
-    .wrap{
+    .wrapcontainer{
         margin-left: 0;
+        margin-right: 0px;
     }
-    .saly{
-        display: none;
+.blog{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+}
+    .home{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
     }
+.saly{
+    max-width: 370px;
+}
 }
 
   .head {
