@@ -1,0 +1,39 @@
+.blog1{
+    display: flex;
+justify-content: center;}
+
+.home1, .home2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home1, .home2{
+max-width: 512px;
+max-height: 340px;
+  }
+  .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  h2{
+    margin-top: 55px;
+    color: #1F2937;
+
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+  }
+
+  .hrtitle{
+    border-radius: 4px 4px 0px 0px;
+    opacity: 0.25;
+    background: linear-gradient(90deg, #D53369 0%, #DAAE51 100%);
+    max-width: 256px;
+max-height: 4px;
+    margin-top: 8px;
+
+  }
