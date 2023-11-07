@@ -15,6 +15,7 @@ body {
     max-width: 1920px;
   
   }
+
   .wrapp{
     max-width: 1920px; 
       background: linear-gradient(90deg, #D53369 0%, #DAAE51 100%); 
@@ -27,6 +28,15 @@ body {
     margin-right: 192px;
 
   }
+  @media (max-width: 797px) {
+    .wrap{
+        margin-left: 0;
+    }
+    .saly{
+        display: none;
+    }
+}
+
   .head {
 
     display: flex;

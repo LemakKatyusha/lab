@@ -1,4 +1,4 @@
-.blog1{
+.blog1, .blog2{
     display: flex;
 justify-content: center;}
 
@@ -12,6 +12,14 @@ justify-content: center;}
 max-width: 512px;
 max-height: 340px;
   }
+  @media (max-width: 575px) {
+    .home1, .home2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+}
   .price{
     display: flex;
     justify-content: space-between;
