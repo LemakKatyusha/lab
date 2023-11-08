@@ -19,7 +19,26 @@ max-height: 340px;
       align-items: center;
       
     }
+    .price{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+margin: 0 !important;
+padding-left: 24px;  
+padding-right: 24px; }
+   .btnsterted{
+text-align: center !important;
+align-items: center;
 }
+.text1, .posts, .text, .blogbtn, .but1{
+    text-align: center !important;
+}
+.btnT{
+    display: block;
+    margin: 0 auto;
+}
+}
+
 
 
   h2{
@@ -85,10 +104,10 @@ background: #FFF;
 }
 
 .startedp{
-    color: #4B5563;
-font-size: 14px;
-font-weight: 400;
-padding-top: 40px;
+    color: #4B5563 !important;
+font-size: 14px !important;
+font-weight: 400 !important;
+padding-top: 40px !important;
 }
 
 .textstarted span{
