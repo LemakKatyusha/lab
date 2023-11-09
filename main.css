@@ -50,7 +50,7 @@ font-size: 48px;
 font-weight: 700;
   }
 
-  hr{
+  .hrtitle{
     border-radius: 4px 4px 0px 0px;
     opacity: 0.25;
     background: linear-gradient(90deg, #D53369 0%, #DAAE51 100%);
@@ -149,4 +149,67 @@ margin-bottom: 48px;
     justify-content: space-between;
     align-items: center;
     gap: 46px;
+}
+.basicc{
+   background-color:#E5E7EB ; 
+}
+
+.pricesflex{
+    display: inline-flex;
+    padding: 24px 126.67px 0px 126.67px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.free{
+    width: 320px;
+    background-color: #FFF;
+    text-align: center;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
+    height: 520px;
+
+}
+.basic{
+width: 520px;
+background-color: #FFF;
+text-align: center;
+height: 520px;
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
+
+}
+.pro{
+    width: 320px;
+    background-color: #FFF; 
+    text-align: center; 
+    height: 520px;
+
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
+ 
+}
+h5{
+    color: #1F2937;
+margin-top: 161px;
+text-align: center;
+
+font-size: 48px;
+font-weight: 700;
+}
+
+.freep{
+    padding-bottom: 32px;
+    padding-top: 32px;
+    
+color: #4B5563;
+
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+}
+.basicp{
+    padding-bottom: 32px;
+    padding-top: 32px;
+    color: #1F2937;
+
+text-align: center;
+font-size: 30px;
+font-weight: 700;
 }
