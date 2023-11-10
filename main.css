@@ -182,6 +182,97 @@ margin-left: 200px;
   .basicc{
    background-color:#F3F4F6 ; 
 }
+.hrp{
+    height: 3px;
+    background: linear-gradient(90deg, #D53369 0%, #DAAE51 100%);
+}
+.freep, .prop{
+    padding-bottom: 36px;
+    border-bottom: 4px solid #E5E7EB;
+}
+.prices{
+    display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 40px;
+padding-bottom: 100px;
+}
+.free{
+    width: 320px;
+    background-color: #FFF;
+    text-align: center;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
+    height: 420px;
+margin-top: 80px;
+padding-top: 32px;
+
+}
+.basic{
+width: 520px;
+background-color: #FFF;
+text-align: center;
+height: 500px;
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
+
+}
+.pro{
+    width: 320px;
+    background-color: #FFF; 
+    text-align: center; 
+    height: 420px;
+    margin-top: 80px;
+    padding-top: 32px;
+
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
+ 
+}
+h5{
+    color: #1F2937;
+margin-top: 161px;
+text-align: center;
+
+font-size: 48px;
+font-weight: 700;
+}
+
+.freeuser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.basicp{
+    padding-bottom: 32px;
+    padding-top: 32px;
+    color: #1F2937;
+
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+}
+.listfree li{
+    padding-top: 16px;
+    padding-bottom: 17px;
+    color: #4B5563;
+    border-bottom: 1px solid #E5E7EB;
+
+
+
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+}
+.listbas li{
+    color: #1F2937;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #E5E7EB;
+
+
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+} 
+
 
 /* починається та фігня*/
 
@@ -219,28 +310,9 @@ margin-left: 200px;
 }
 
 
-.free{
-    max-width: 320px;
-    background-color: #FFF;
-    text-align: center;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
-    height: 520px;
 
-}
-.prices{
-    display: inline-flex;
-    
-    justify-content: space-between;
-    align-items: flex-end;
-}
-.basic{
-max-width: 520px;
-background-color: #FFF;
-text-align: center;
-height: 520px;
-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
 
-}
+
 .freep{
     padding-bottom: 32px;
     padding-top: 32px;
@@ -259,56 +331,7 @@ font-weight: 700;
 }
     }
 
-.pro{
-    width: 320px;
-    background-color: #FFF; 
-    text-align: center; 
-    height: 520px;
-
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
  
-}
-h5{
-    color: #1F2937;
-margin-top: 161px;
-text-align: center;
-
-font-size: 48px;
-font-weight: 700;
-}
-
-.basicp{
-    padding-bottom: 32px;
-    padding-top: 32px;
-    color: #1F2937;
-
-text-align: center;
-font-size: 30px;
-font-weight: 700;
-}
-.listfree li{
-    padding-top: 16px;
-    padding-bottom: 17px;
-    color: #4B5563;
-    border-bottom: 1px solid #E5E7EB;
-
-
-
-text-align: center;
-font-size: 14px;
-font-weight: 400;
-}
-.listbas li{
-    color: #1F2937;
-    padding-top: 16px;
-    padding-bottom: 17px;
-    border-bottom: 1px solid #E5E7EB;
-
-
-text-align: center;
-font-size: 16px;
-font-weight: 700;
-}  
  
 */
 /*call */
