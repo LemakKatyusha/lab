@@ -1,23 +1,38 @@
  .blog1, .blog2{
     display: flex;
-justify-content: center;}
+justify-content: center;
+
+}
 
 .home1, .home2 {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
   }
+
   .home1, .home2{
 max-width: 512px;
 max-height: 340px;
   }
+  .home3{
+    display: none;
+  }
+
+
    @media (max-width: 575px) {
-    .home1, .home2 {
+    .home1, .home3  {
       display: flex;
       flex-direction: column;
       align-items: center;
       
+    }
+    .home3{
+        display: flex;
+    }
+    .home2{
+        display: none;
     }
     .price{
         display: flex;
@@ -71,7 +86,7 @@ margin: 0 25% 0 25%;
   }
 
  h2, 
-h4{
+h4, h5{
     color: #1F2937;
 
 text-align: center;
@@ -152,21 +167,26 @@ margin-bottom: 48px;
 .started{
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
 }
+
+
 .price{
 margin-right: 200px;
 margin-left: 200px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
     gap: 46px;
 }
 
 
+  .basicc{
+   background-color:#F3F4F6 ; 
+}
 
 /* починається та фігня*/
 
 
-@media (max-width: 575px) {
+/*@media (max-width: 575px) {
     .pricesflex{
       display: flex;
       flex-direction: column;
@@ -174,10 +194,7 @@ margin-left: 200px;
       padding: 0px;
       margin: 0px;
     }
-.free, .basic, .pro{
-    max-width:300px ;
 
-}
 .call{
     height: 387px;
 
@@ -195,36 +212,53 @@ margin-left: 200px;
     padding: 0;
 }
 }
-  .basicc{
-   background-color:#E5E7EB ; 
+
+..free, .basic, .pro{
+    max-width:300px ;
+
 }
 
-.pricesflex{
-    display: inline-flex;
-    
-    justify-content: space-between;
-    align-items: flex-end;
-}
-.logofoot, .footlogo{
-    margin-left: 24px !important;
-    margin-right: 24px;
-}
+
 .free{
-    width: 320px;
+    max-width: 320px;
     background-color: #FFF;
     text-align: center;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
     height: 520px;
 
 }
+.prices{
+    display: inline-flex;
+    
+    justify-content: space-between;
+    align-items: flex-end;
+}
 .basic{
-width: 520px;
+max-width: 520px;
 background-color: #FFF;
 text-align: center;
 height: 520px;
 box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
 
 }
+.freep{
+    padding-bottom: 32px;
+    padding-top: 32px;
+    
+color: #4B5563;
+padding: 32px 160px 32px 160px;
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+}
+@media (max-width: 575px) {
+.free{
+    max-width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+    }
+
 .pro{
     width: 320px;
     background-color: #FFF; 
@@ -242,16 +276,7 @@ text-align: center;
 font-size: 48px;
 font-weight: 700;
 }
-.freep{
-    padding-bottom: 32px;
-    padding-top: 32px;
-    
-color: #4B5563;
 
-text-align: center;
-font-size: 30px;
-font-weight: 700;
-}
 .basicp{
     padding-bottom: 32px;
     padding-top: 32px;
@@ -285,16 +310,21 @@ font-size: 16px;
 font-weight: 700;
 }  
  
-
+*/
 /*call */
 .call{
     background: linear-gradient(90deg, #D53369 0%, #DAAE51 100%);
 
 
 }
-.logofoot{
-max-width: 1920px;
+.logofoot, .footlogo{
+    margin-left: 24px !important;
+    margin-right: 24px;
 }
+.logofoot{
+    width: 200px;
+}
+
 .calltext{
     color: #FFF;
 text-align: center;
@@ -341,12 +371,18 @@ font-weight: 700;
 
 }
 
+
+
 .foot{
-    margin-left: 200px;
-    margin-right: 200px;
     display: flex;
     justify-content: space-between;
-    max-width: 326px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.footers{
+    display: flex;
+    justify-content: space-between;
+
 }
 .footlogo p{
     color: #6B7280;
@@ -355,6 +391,9 @@ padding-bottom: 24px;
 font-size: 16px;
 font-weight: 400;
 text-transform: uppercase;
+padding-right: 126px;
+
+
 }
 
 .lifoot{
@@ -367,6 +406,7 @@ padding-bottom: 8px;
 }
 .logofoot{
     padding-top: 24px;
+    
 }
 @media (max-width: 575px) {
     .foot{display: flex;
@@ -375,5 +415,7 @@ padding-bottom: 8px;
     align-items: flex-start;
 margin-left: 0px !important;
 padding-right: 0px !important;
-margin-right: 0px;}
+margin-right: 0px;
+
+}
 }
