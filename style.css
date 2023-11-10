@@ -8,13 +8,14 @@ body {
     position: relative;
     font-weight: 400;
     font-size: 16px;
-          margin-right: 200px;
+    margin-right: 200px;
     margin-left: 200px;
-  }
-  .wrapper {
     max-width: 1920px;
-  
-  }
+  } 
+   .wrapper {
+    
+  margin: 0;
+}
 
   .wrapp{
     max-width: 1920px; 
@@ -28,7 +29,7 @@ body {
     margin-right: 192px;
 
   }
-  @media (max-width: 797px) {
+   @media (max-width: 797px) {
     .wrapcontainer{
         margin-left: 0;
         margin-right: 0px;
@@ -45,9 +46,9 @@ body {
 
     }
 .saly{
-    max-width: 370px;
-}
-}
+    max-width: 200px;
+} 
+ } 
 
   .head {
 
@@ -95,7 +96,7 @@ body {
     cursor: pointer;
     color: #424242;
   }
-  @media (max-width: 991px) {
+   @media (max-width: 991px) {
     .list li a{
         color: #424242;
         font-size: 20px;
@@ -119,7 +120,7 @@ body {
   .navbar input {
     display: none;
   }
-}
+} 
 .myburger input {
     display: none;
   }  
@@ -224,10 +225,13 @@ margin-top: 56px;
     padding: 10px 20px;
     cursor: pointer;
     align-items: center;
+
     color: #1F2937;  
 }
 
 
+
+   
 
 
 

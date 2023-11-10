@@ -1,4 +1,4 @@
-.blog1, .blog2{
+ .blog1, .blog2{
     display: flex;
 justify-content: center;}
 
@@ -12,7 +12,7 @@ justify-content: center;}
 max-width: 512px;
 max-height: 340px;
   }
-  @media (max-width: 575px) {
+   @media (max-width: 575px) {
     .home1, .home2 {
       display: flex;
       flex-direction: column;
@@ -24,8 +24,15 @@ max-height: 340px;
         flex-direction: column;
         align-items: center;  
 margin: 0 !important;
-padding-left: 24px;  
-padding-right: 24px; }
+ }
+/* .pricesflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+margin: 0 !important;
+padding: 0 !important;
+
+ } */
    .btnsterted{
 text-align: center !important;
 align-items: center;
@@ -37,7 +44,10 @@ align-items: center;
     display: block;
     margin: 0 auto;
 }
+.saly{
+    max-width: 200px;
 }
+} 
 
 
 
@@ -99,7 +109,7 @@ font-weight: 400;
 
 .container{
     border-bottom: 1px solid #E5E7EB;
-
+max-width: 1024px;
 background: #FFF;
 }
 
@@ -143,20 +153,43 @@ margin-bottom: 48px;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
 }
 .price{
-    margin-left: 192px;
-    margin-right: 192px;
+margin-right: 200px;
+margin-left: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 46px;
 }
-.basicc{
+
+
+
+/* починається та фігня*/
+
+
+@media (max-width: 575px) {
+    .pricesflex{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      margin: 0px;
+    }
+.free, .basic, .pro{
+    max-width:300px ;
+
+}
+.prices{
+    margin: 0;
+    padding: 0;
+}
+}
+  .basicc{
    background-color:#E5E7EB ; 
 }
 
 .pricesflex{
     display: inline-flex;
-    padding: 24px 126.67px 0px 126.67px;
+    
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -193,7 +226,6 @@ text-align: center;
 font-size: 48px;
 font-weight: 700;
 }
-
 .freep{
     padding-bottom: 32px;
     padding-top: 32px;
@@ -212,4 +244,120 @@ font-weight: 700;
 text-align: center;
 font-size: 30px;
 font-weight: 700;
+}
+.listfree li{
+    padding-top: 16px;
+    padding-bottom: 17px;
+    color: #4B5563;
+    border-bottom: 1px solid #E5E7EB;
+
+
+
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+}
+.listbas li{
+    color: #1F2937;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #E5E7EB;
+
+
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+}  
+ 
+
+/*call */
+.call{
+    background: linear-gradient(90deg, #D53369 0%, #DAAE51 100%);
+
+
+
+}
+.logofoot{
+max-width: 1920px;
+}
+.calltext{
+    color: #FFF;
+text-align: center;
+align-items: center;
+font-size: 48px;
+font-weight: 700;
+}
+.callp{
+    color: #FFF;
+padding-top: 15px;
+padding-bottom: 40px;
+text-align: center;
+font-size: 30px;
+font-weight: 400;
+}
+.callhr{
+    border-radius: 4px 4px 0px 0px;
+opacity: 0.25;
+background: #FFF;
+width: 256px;
+height: 4px;
+flex-shrink: 0;
+
+}
+.butcall{
+    display: block;
+    border-radius: 9999px;
+    margin: 0 auto;
+background: #FFF;
+max-width: 155px;
+max-height: 56px;
+box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
+margin-top: 56px;
+    border: none;
+    padding: 16px 31px;
+    cursor: pointer;
+    align-items: center;
+text-align: center;
+color: #1F2937;
+
+font-size: 16px;
+font-weight: 700;
+
+}
+
+.foot{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+}
+.footlogo p{
+    color: #6B7280;
+padding-top: 24px;
+padding-bottom: 24px;
+font-size: 16px;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+.lifoot{
+
+    color: #1F2937;
+
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 8px;
+}
+.logofoot{
+    padding-top: 24px;
+}
+@media (max-width: 575px) {
+    .foot{display: inline-flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+margin-left: 0px !important;
+padding-right: 0px !important;
+margin-right: 0px;}
 }
