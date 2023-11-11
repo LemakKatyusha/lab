@@ -20,13 +20,13 @@ font-family: 'Syne', sans-serif;
       background: linear-gradient(90deg, #D53369 0%, #DAAE51 100%); 
 
   }
-  .wrapcontainer {
+   .wrapcontainer {
     max-width: 1920px;
     margin: 0 auto;
     margin-left: 192px;
     margin-right: 192px;
 
-  }
+  } 
    @media (max-width: 797px) {
     .wrapcontainer{
         margin-left: 0;
@@ -51,7 +51,8 @@ h5{
 .blog{
     display: flex;
     justify-content: center;
-    flex-direction: column;   
+    flex-direction: column;  
+
 }
     .home{
         display: flex;
@@ -67,14 +68,24 @@ h5{
   height: 580px;
 }
   .head {
-padding-top: 8px;
+padding-top: 10px;
     display: flex;
     gap: 31px;
-    margin-bottom: 46px;
+    margin-bottom: 10px;
     justify-content: space-between;
     align-items: center;
 
   }
+  .headerhr{
+    border-top: 1px solid #F3F4F6;
+
+border-bottom: 1px solid #F3F4F6;
+
+opacity: 0.25;
+
+  }
+
+
    .btnsterted{
     display: flex;
     margin-left: 24px;
@@ -122,7 +133,7 @@ backdrop-filter: blur(7.5px);
       width: 100%;
       height: 0;
       left: 0px;
-      top: 50px;
+      top: 52px;
       transition: 0.4s ease-in-out;
       box-shadow: 0px 8px 26px 1px rgba(0, 0, 0, 0.50);
     }
