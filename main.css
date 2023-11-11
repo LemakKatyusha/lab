@@ -187,6 +187,9 @@ margin-left: 200px;
     background: linear-gradient(90deg, #D53369 0%, #DAAE51 100%);
 }
 .freep, .prop{
+    color: #4B5563;
+font-size: 30px;
+font-weight: 700;
     padding-bottom: 36px;
     border-bottom: 4px solid #E5E7EB;
 }
@@ -198,11 +201,11 @@ padding-top: 40px;
 padding-bottom: 100px;
 }
 .free{
-    width: 320px;
+    width: 340px;
     background-color: #FFF;
     text-align: center;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
-    height: 420px;
+    height: 470px;
 margin-top: 80px;
 padding-top: 32px;
 
@@ -211,15 +214,15 @@ padding-top: 32px;
 width: 520px;
 background-color: #FFF;
 text-align: center;
-height: 500px;
+height: 550px;
 box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
 
 }
 .pro{
-    width: 320px;
+    width: 350px;
     background-color: #FFF; 
     text-align: center; 
-    height: 420px;
+    height: 470px;
     margin-top: 80px;
     padding-top: 32px;
 
@@ -237,8 +240,58 @@ font-weight: 700;
 
 .freeuser{
     display: flex;
+    padding: 24px 104.22px 0px 107.1px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+}
+
+.userp{
+    color: #4B5563;
+
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+}
+.oneuser{
+    color: #4B5563;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px; 
+}
+
+.basicuserp{
+    color: #1F2937;
+
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.basiconeuser{
+    color: #1F2937;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.userpro{
+    color: #4B5563;
+
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+.oneuserpro{
+    color: #4B5563;
+
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
 }
 .basicp{
     padding-bottom: 32px;
@@ -281,6 +334,20 @@ font-weight: 700;
       padding: 0px;
       margin: 0px;
     }
+    .free, .pro, .basic{
+width: 300px;
+    }
+
+    .basic{
+        margin-top: 16px;
+        margin-bottom: 0;
+    }
+    .pro{
+        margin-top: 16px;
+        margin-bottom: 116px;
+    }
+
+
 }
 /* починається та фігня*/
 
@@ -442,7 +509,51 @@ padding-right: 0px !important;
 margin-right: 0px;
 
 }
-.basic{
-    width:310px ;
+
 }
+
+.btnstartedS{
+    display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+
+.btnSB{
+    display: flex;
+    padding: 16px 32.06px 16px 31px;
+    align-items: flex-start;
+    border-radius: 9999px;
+    background: linear-gradient(90deg, #D53369 0%, #DAAE51 100%);
+    max-width: 120px;
+    max-height: 56px;
+    box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
+    color: #FFF;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 68px;
+    margin-bottom: 48px;
+   
+}
+.btnS{
+    display: flex;
+    padding: 16px 32.06px 16px 31px;
+    align-items: flex-start;
+    border-radius: 9999px;
+    background: linear-gradient(90deg, #D53369 0%, #DAAE51 100%);
+    max-width: 120px;
+    max-height: 56px;
+    box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
+    color: #FFF;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 66px;
+    margin-bottom: 48px;
+    
 }

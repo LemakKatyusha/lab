@@ -8,9 +8,6 @@ a{
    text-decoration: none; 
 }
     
-
-
-
 aside, nav, footer, header, section, main{
     display: block;
 }
@@ -28,12 +25,11 @@ p+p{
 ul{
     list-style: none;
 }
+
 img, svg{
     max-width: 100%;
     display: block;
 }
-
-
 
 label {
 	cursor: pointer;
