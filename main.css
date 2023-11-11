@@ -1,6 +1,7 @@
  .blog1, .blog2{
     display: flex;
 justify-content: center;
+gap: 20px;
 
 }
 
@@ -9,16 +10,31 @@ justify-content: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+max-width: 900px;
+max-height: 724px;
   }
 
-  .home1, .home2{
-max-width: 512px;
-max-height: 340px;
-  }
-  .home3{
+  .LOREM h3{
+    margin-bottom: 10px;   
+}
+.hrefp{
+    margin-top: 30px;
+}
+  .home3 {
     display: none;
+    margin-bottom: 61px;
   }
+  .hh3{
+    padding-top: 90px;
+    margin-bottom: 10px;
+  }
+  .home2{
+    margin-bottom: 61px;
+  }
+  .blog2 .home2 .LOREM{
+    margin-left: 30px;
+  }
+
 
 
    @media (max-width: 575px) {
@@ -34,20 +50,25 @@ max-height: 340px;
     .home2{
         display: none;
     }
+    .LOREM h3{
+        margin-bottom: 10px;   
+    }
+    .hrefp{
+        margin-bottom: 50px;
+    }
+    .LOREM p{
+        padding-bottom: 20px;
+    }
+    .LOREM img{
+        margin-bottom: 20px;
+    }
     .price{
         display: flex;
         flex-direction: column;
         align-items: center;  
 margin: 0 !important;
  }
-/* .pricesflex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
-margin: 0 !important;
-padding: 0 !important;
 
- } */
    .btnsterted{
 text-align: center !important;
 align-items: center;
@@ -79,9 +100,9 @@ font-weight: 700;
     border-radius: 4px 4px 0px 0px;
     opacity: 0.25;
     background: linear-gradient(90deg, #D53369 0%, #DAAE51 100%);
-    max-width: 50%;
+    max-width: 26%;
 height: 4px;
-margin: 0 25% 0 25%;
+margin: 0 37% 0 37%;
 
   }
 
@@ -124,8 +145,9 @@ font-weight: 400;
 
 .container{
     border-bottom: 1px solid #E5E7EB;
-max-width: 1024px;
+
 background: #FFF;
+
 }
 
 .startedp{
@@ -174,7 +196,7 @@ margin-right: 200px;
 margin-left: 200px;
     display: flex;
     justify-content: space-between;
-    
+    margin-top: 16px;
     gap: 46px;
 }
 
@@ -201,7 +223,7 @@ padding-top: 40px;
 padding-bottom: 100px;
 }
 .free{
-    width: 340px;
+    width: 360px;
     background-color: #FFF;
     text-align: center;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
@@ -219,7 +241,7 @@ box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0
 
 }
 .pro{
-    width: 350px;
+    width: 360px;
     background-color: #FFF; 
     text-align: center; 
     height: 470px;
@@ -251,6 +273,15 @@ font-weight: 700;
 text-align: center;
 font-size: 30px;
 font-weight: 700;
+}
+@media (max-width: 575px) {
+
+   
+    .freeuser{
+        max-width: 300px;
+        padding: 0;
+        padding-top: 35px;
+    }
 }
 .oneuser{
     color: #4B5563;
@@ -346,63 +377,19 @@ width: 300px;
         margin-top: 16px;
         margin-bottom: 116px;
     }
-
-
-}
-/* починається та фігня*/
-
-
-/*
-
 .call{
     height: 387px;
 
 }
-.listfoot{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 11px;
-    font-size: 16px;
+.calltext{
+    margin-top: 32px;
+}
+.callp{
+    font-size: 30px;
     font-weight: 400;
 }
-.prices{
-    margin: 0;
-    padding: 0;
-}
 }
 
-..free, .basic, .pro{
-    max-width:300px ;
-
-}
-
-
-
-
-
-.freep{
-    padding-bottom: 32px;
-    padding-top: 32px;
-    
-color: #4B5563;
-padding: 32px 160px 32px 160px;
-text-align: center;
-font-size: 30px;
-font-weight: 700;
-}
-@media (max-width: 575px) {
-.free{
-    max-width: 400px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-    }
-
- 
- 
-*/
-/*call */
 .call{
     background: linear-gradient(90deg, #D53369 0%, #DAAE51 100%);
 
@@ -486,7 +473,9 @@ padding-right: 126px;
 
 
 }
-
+.textstarted{
+    margin-left: 24px;
+}
 .lifoot{
 
     color: #1F2937;
@@ -509,6 +498,10 @@ padding-right: 0px !important;
 margin-right: 0px;
 
 }
+.started{
+    max-width: 290px;
+    margin-left: 15px;
+}
 
 }
 
@@ -525,7 +518,7 @@ align-items: center;
     align-items: flex-start;
     border-radius: 9999px;
     background: linear-gradient(90deg, #D53369 0%, #DAAE51 100%);
-    max-width: 120px;
+    max-width: 130px;
     max-height: 56px;
     box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
     color: #FFF;
@@ -544,7 +537,7 @@ align-items: center;
     align-items: flex-start;
     border-radius: 9999px;
     background: linear-gradient(90deg, #D53369 0%, #DAAE51 100%);
-    max-width: 120px;
+    max-width: 130px;
     max-height: 56px;
     box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
     color: #FFF;
